@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:padding="16dp" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:layout_marginBottom="16dp" android:layout_gravity="center_horizontal" android:text="@string/region_information"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginBottom="4dp" android:layout_gravity="center_horizontal" android:textAlignment="center" android:id="@+id/text_view_venue"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginBottom="16dp" android:layout_gravity="center_horizontal" android:id="@+id/text_view_venue_id" android:textIsSelectable="true"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginBottom="4dp" android:layout_gravity="center_horizontal" android:id="@+id/text_view_floor_plan"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginBottom="16dp" android:layout_gravity="center_horizontal" android:id="@+id/text_view_floor_plan_id" android:textIsSelectable="true"/>
+
+    <View android:layout_height="1dp" android:layout_width="match_parent" android:layout_marginBottom="16dp" android:background="?android:attr/listDivider"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:layout_marginBottom="8dp" android:layout_gravity="center_horizontal" android:text="@string/floor_level"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginBottom="8dp" android:layout_gravity="center_horizontal" android:id="@+id/text_view_floor_level" android:textSize="64sp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:id="@+id/text_view_floor_certainty"/>
+
+</LinearLayout>

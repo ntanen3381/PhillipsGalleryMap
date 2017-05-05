@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <PreferenceScreen android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference android:title="Your Name" android:summary="Please provide your username" android:key="username"/>
+
+</PreferenceScreen>
