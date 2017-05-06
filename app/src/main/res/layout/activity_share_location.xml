@@ -6,6 +6,6 @@
 
     <com.indooratlas.android.sdk.examples.sharelocation.view.MultiLocationMapView android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/map"/>
 
-    <android.support.design.widget.FloatingActionButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/fab" android:src="@drawable/ic_person_outline_white_36dp" android:onClick="changeIdentity" android:layout_margin="16dp" android:layout_gravity="end|bottom"/>
+    <android.support.design.widget.FloatingActionButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/fab" android:src="@mipmap/ic_person_outline_white_36dp" android:onClick="changeIdentity" android:layout_margin="16dp" android:layout_gravity="end|bottom"/>
 
 </android.support.design.widget.CoordinatorLayout>
